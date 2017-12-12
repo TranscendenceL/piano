@@ -7,7 +7,7 @@ ports = list(serial.tools.list_ports.comports())
 print (ports)
 for p in ports:
     print (p[1])
-    if "Arduino" in p[1]:
+    if "SERIAL" in p[1]:
 	    ser=serial.Serial(port=p[0])
     else :
 	    print ("No Arduino Device was found connected to the computer")
