@@ -1,5 +1,6 @@
 import serial
 import time
+import serial.tools.list_ports
 
 print ('hello')
 ports = list(serial.tools.list_ports.comports())
