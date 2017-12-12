@@ -41,11 +41,36 @@ def run():
         print ('select which tone do you want to play ? 1,2 q and others for quit')
         action = input("> ")
         if action == "1":
-            print("song name is:I don't know it is in the head of song")
+            print("song name is:tinkelstar")
             for notes in song1:
                 ser.write(notes.encode())
                 print ("send:"+notes)
                 time.sleep(1)
+            print("song name is:dadaotuhao")
+            for notes in song2:
+                ser.write(notes.encode())
+                print("send:"+notes)
+                time.sleep(2)
+            print("song name is:xknsong")
+            for notes in song3:
+                ser.write(notes.encode())
+                print("send:"+notes)
+                time.sleep(3)
+            print("song name is:song1")
+            for notes in song4:
+                ser.write(notes.encode())
+                print("send:"+notes)
+                time.sleep(4)
+            print("song name is:hello")
+            for notes in song5:
+                ser.write(notes.encode())
+                print("send:"+notes)
+                time.sleep(5)
+            print("song name is:way")
+            for notes in song6:
+                ser.write(notes.encode())
+                print("send:"+notes)
+                tuime.sleep(6)
         elif action == "2":
             ser.write('2'.encode())
         elif action == "3":
