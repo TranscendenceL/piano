@@ -71,7 +71,7 @@ def run():
             for notes in song6:
                 ser.write(notes.encode())
                 print("send:"+notes)
-                tuime.sleep(6)
+                time.sleep(6)
         elif action == "2":
             ser.write('2'.encode())
         elif action == "3":
