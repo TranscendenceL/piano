@@ -53,7 +53,7 @@ print (n)
 def run():
     action = "aaa"
     while action != "q":
-        print ('select which  do you want to play ? 1,2 q and others for quit')
+        print ('select 1 would enable you to play the songs through the numebrs of it, select 2 would enable you to play the songs through its names, q and others for quit')
         action = input("> ")
         if action == "1":
             print("please select the number of the song from 1 to ...")
