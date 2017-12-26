@@ -49,8 +49,7 @@ def run():
                 time.sleep(1)
         elif action == "2":
             ser.write('2'.encode())
-        elif ac
-        tion == "3":
+        elif action == "3":
             ser.write('3'.encode())
         elif action == "4":
             ser.write('4'.encode())
