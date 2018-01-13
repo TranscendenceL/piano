@@ -13,7 +13,7 @@ A6A7 for LED
 12:high re
 ......
 17:high si
-21:low do
+21:low doo
 22:low re
 ......
 27:low si
