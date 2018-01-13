@@ -24,3 +24,5 @@ A6A7 for LED
 44:close LED
 45:vary the color of LED
 46:stop 45
+## some variables added
+100:medium light of the LED
